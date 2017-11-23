@@ -89,7 +89,8 @@ public class BrowserStackChrome {
 				Assert.assertTrue(yourFliters.contains("The National Archives"));
 				driver.quit();
 
-
+				Assert.assertTrue(yourFliters.contains("The National Archives"));
+				driver.quit();
 			
 			
 		
